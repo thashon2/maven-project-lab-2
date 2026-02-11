@@ -27,6 +27,7 @@ public class BinaryController {
 		Binary number2=new Binary (operand2);
 		switch(operator)
 		{
+			//cases added to implement AND OR MULTIPLY FUNCTIONS 
 			case "+":
 				model.addAttribute("result", Binary.add(number1,number2).getValue());
 				return "result";
